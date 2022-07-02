@@ -3,9 +3,8 @@
 
 
 /**
- * main - program that prints all single digit numbers of base 10 starting from
- * You are not allowed to use any variable of type char
- * You can only use the putchar function
+ * main - main function
+ * Description:printinggg single digits numbers of base 10 starting from 01
  * Return: 0
  */
 
@@ -15,20 +14,22 @@ int main(void)
 
 {
 
-	int n = 48;
+		int x;
 
-	while (n <= 57)
 
-	{
 
-		putchar(n);
+			for (x = 48; x <= 57; x++)
 
-		n += 1;
+					{
 
-	}
+								putchar(x);
 
-	putchar("\n");
+									}
 
-		return (0);
+				putchar('\n');
+
+
+
+					return (0);
 
 }
