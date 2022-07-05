@@ -1,3 +1,5 @@
+int x;
+
 #include "main.h"
 
 
