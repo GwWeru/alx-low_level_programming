@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * strdup -> string duplicator function
+ * _strdup -> string duplicator function
  * @str: string to be duplicated
  * Return: a string pointer
  */
@@ -16,7 +16,8 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	while (str[i]) i++;
+	while (str[i])
+		i++;
 		s = (char *)malloc(i * sizeof(char) + 1);
 	if (s == NULL)
 		return (NULL);
