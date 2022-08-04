@@ -15,7 +15,7 @@ int sum_them_all(const unsigned int n, ...)
 	int add = 0, number;
 	va_list parameters;
 
-	va_srart(parameters, n);
+	va_start(parameters, n);
 	if (n == 0)
 	{
 		return (0);
