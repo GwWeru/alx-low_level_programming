@@ -16,8 +16,9 @@ void print_something(void) __attribute__ ((constructor));
 void print_something(void)
 
 {
+	printf("You're beat! and yet, you must allow,\n"
 
-		printf("I left my chills in the Kalahari.\n");
+			"I bore my house upon my back!\n");
 		return 0;
 
 }
