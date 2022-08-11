@@ -7,20 +7,13 @@
 
 
 /**
- *
- *  * struct list_s - singly linked list
- *
- *   * @str: string - (malloc'ed string)
- *
- *    * @len: length of the string
- *
- *     * @next: points to the next node
- *
- *      * Description: singly linked list node structure
- *
- *       * for alx project
- *
- *        */
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ * Description: singly linked list node structure
+ * for alx project
+ */
 
 
 
@@ -62,4 +55,4 @@ int _strlen(const char *s);
 
 
 
-#endif /* #ifndef LISTS_H */
+#endif
