@@ -28,14 +28,15 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		{
 			return (-1);
 		}
-for (i = 0 ; i < (index - 1) ; i++)
-{
-	if (pretmp->next == NULL)
-	{
-		return (-1);
 	}
+		for (i = 0 ; i < (index - 1) ; i++)
+		{
+			if (pretmp->next == NULL)
+			{
+				return (-1);
+			}
+		}
 	pretmp = pretmp->next;
-}
 tmp = pretmp->next;
 pretmp->next = tmp->next;
 free(tmp);
