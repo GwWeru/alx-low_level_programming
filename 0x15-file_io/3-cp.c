@@ -1,21 +1,13 @@
 #include "main.h"
-
-
-
 /**
  * main - copies the content of a file to another file
  * @argc: number of arguments passed
  * @argv: double pointer
  * Return: the actual number of letters it could read and print
  */
-
-
-
 int main(int argc, char **argv)
 {
-
 	int f1, f2, n;
-
 	char buf[1024];
 
 	if (argc != 3)
@@ -53,5 +45,5 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f2);
 		exit(100);
 	}
-return (0);
+	return (0);
 }
